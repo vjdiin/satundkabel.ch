@@ -1,0 +1,31 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{blockcategories}leomobi>blockcategories_8f0ed7c57fca428f7e3f8e64d2f00918'] = 'Blocco categorie';
+$_MODULE['<{blockcategories}leomobi>blockcategories_15a6f5841d9e4d7e62bec3319b4b7036'] = 'Aggiunge un blocco con le categorie di prodotto';
+$_MODULE['<{blockcategories}leomobi>blockcategories_b15e7271053fe9dd22d80db100179085'] = 'Questo modulo ha bisogno di essere agganciato in una colonna e il tema non implementa uno';
+$_MODULE['<{blockcategories}leomobi>blockcategories_23e0d4ecc25de9b2777fdaca3e2f3193'] = 'Profondità massima: numero non valido.';
+$_MODULE['<{blockcategories}leomobi>blockcategories_0cf328636f0d607ac24a5c435866b94b'] = 'HTML dinamico: scelta non valida.';
+$_MODULE['<{blockcategories}leomobi>blockcategories_f4f70727dc34561dfde1a3c529b6205c'] = 'Impostazioni';
+$_MODULE['<{blockcategories}leomobi>blockcategories_1379a6b19242372c1f23cc9adedfcdd6'] = 'Categoria radice';
+$_MODULE['<{blockcategories}leomobi>blockcategories_8cf04a9734132302f96da8e113e80ce5'] = 'Home page';
+$_MODULE['<{blockcategories}leomobi>blockcategories_222a267cc5778206b253be35ee3ddab5'] = 'Corrente';
+$_MODULE['<{blockcategories}leomobi>blockcategories_19561e33450d1d3dfe6af08df5710dd0'] = 'Profondità massima';
+$_MODULE['<{blockcategories}leomobi>blockcategories_4a99c9eebe78078e29e6193e05eac626'] = 'Impostare la profondità massima di sottolivelli visualizzati in questo blocco (0 = infinito).';
+$_MODULE['<{blockcategories}leomobi>blockcategories_971fd8cc345d8bd9f92e9f7d88fdf20c'] = 'Dinamico';
+$_MODULE['<{blockcategories}leomobi>blockcategories_e16f248b047fb7d0c97dcc19b17296a3'] = 'Attiva modalità dinamica (animato) per sottolivelli.';
+$_MODULE['<{blockcategories}leomobi>blockcategories_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Attivato';
+$_MODULE['<{blockcategories}leomobi>blockcategories_b9f5c797ebbf55adccdd8539a65a0241'] = 'Disabile';
+$_MODULE['<{blockcategories}leomobi>blockcategories_6b46ae48421828d9973deec5fa9aa0c3'] = 'Ordina';
+$_MODULE['<{blockcategories}leomobi>blockcategories_54e4f98fb34254a6678f0795476811ed'] = 'Per nome';
+$_MODULE['<{blockcategories}leomobi>blockcategories_883f0bd41a4fcee55680446ce7bec0d9'] = 'Per posizione';
+$_MODULE['<{blockcategories}leomobi>blockcategories_06f1ac65b0a6a548339a38b348e64d79'] = 'Ordine di selezione';
+$_MODULE['<{blockcategories}leomobi>blockcategories_e3cf5ac19407b1a62c6fccaff675a53b'] = 'Decrescente';
+$_MODULE['<{blockcategories}leomobi>blockcategories_cf3fb1ff52ea1eed3347ac5401ee7f0c'] = 'Crescente';
+$_MODULE['<{blockcategories}leomobi>blockcategories_5f73e737cedf8f4ccf880473a7823005'] = 'Quante colonne del footer preferisci?';
+$_MODULE['<{blockcategories}leomobi>blockcategories_c9cc8cce247e49bae79f15173ce97354'] = 'Salvare';
+$_MODULE['<{blockcategories}leomobi>blockcategories_af1b98adf7f686b84cd0b443e022b7a0'] = 'Categorie';
+$_MODULE['<{blockcategories}leomobi>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'Categorie';
+$_MODULE['<{blockcategories}leomobi>blockcategories_admin_c69d9eead832257f587f7c9ec0026fe2'] = 'È possibile caricare un massimo di 3 immagini.';
+$_MODULE['<{blockcategories}leomobi>blockcategories_admin_acc66e14d297c1bfc20986bf593cb054'] = 'Anteprime';

@@ -1,0 +1,14 @@
+/* RIGHT TO LEFT */
+/* Christmas  */
+#page {
+  background: url("img/bg_page.png") repeat-x center top;
+}
+
+#footer {
+  background: url("img/bg_footer.png") no-repeat center bottom;
+  padding-bottom: 290px;
+}
+
+body {
+  background: url("img/bg_body.jpg") repeat;
+}

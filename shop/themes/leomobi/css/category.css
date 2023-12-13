@@ -1,0 +1,85 @@
+/* RIGHT TO LEFT */
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+.content_scene_cat {
+  margin: 0 0 20px 0;
+}
+.content_scene_cat .category-name {
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+.content_scene_cat p {
+  margin-bottom: 0;
+}
+.content_scene_cat a {
+  color: #58b0da;
+}
+.green .content_scene_cat a {
+  color: #1d7e5d;
+}
+.christmas .content_scene_cat a {
+  color: #d74142;
+}
+.pink .content_scene_cat a {
+  color: #eb5e66;
+}
+.orange .content_scene_cat a {
+  color: #fb5a29;
+}
+.content_scene_cat a:hover {
+  text-decoration: underline;
+}
+.content_scene_cat .content_scene {
+  color: #7e7f80;
+}
+.content_scene_cat .content_scene .cat_desc {
+  padding-top: 20px;
+}
+.content_scene_cat .content_scene .cat_desc a {
+  color: #777777;
+}
+.content_scene_cat .content_scene .cat_desc a:hover {
+  color: #58b0da;
+}
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+#subcategories {
+  border-top: 1px solid #dedede;
+  padding: 15px 0 0px 0;
+}
+#subcategories p.subcategory-heading a {
+  color: #4a4a4a;
+}
+#subcategories .subcategories {
+  border: 1px solid #dedede;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#subcategories .subcategories:hover {
+  border-color: #58b0da;
+}
+.green #subcategories .subcategories:hover {
+  border-color: #1d7e5d;
+}
+.christmas #subcategories .subcategories:hover {
+  border-color: #d74142;
+}
+.pink #subcategories .subcategories:hover {
+  border-color: #eb5e66;
+}
+.orange #subcategories .subcategories:hover {
+  border-color: #fb5a29;
+}
+#subcategories .subcategories .subcategory-name {
+  font-size: 14px;
+  color: #4a4a4a;
+}
+#subcategories .subcategories .cat_desc {
+  height: 40px;
+  overflow: hidden;
+}

@@ -1,0 +1,46 @@
+
+/* customize for body */ 
+body { background-image:url(../../img/patterns/pattern1.png)} 
+body #page { background-color:#d43e3e} 
+body #page { background-image:url(../../img/patterns/pattern1.png)} 
+.container { background-color:#781a1a} 
+body #page { font-size:14} 
+body #page { color:#f5f2f2} 
+body #page a { color:#9e5d5d} 
+a:hover { color:#bf4545} 
+
+/* customize for topbar */ 
+#topbar .container { background-color:#8f2525} 
+#topbar .row { border-color:#8c2727} 
+#topbar { color:#7a1818} 
+#topbar a { color:#faf5f5} 
+
+/* customize for header-main */ 
+#header { background-color:#b01e1e} 
+#header { color:#ba4747} 
+#header a { color:#b05a5a} 
+#search_block_top #search_query_top { background-color:#a64949} 
+#search_block_top input.form-control  { color:#f5f5f5} 
+
+/* customize for mainnav */ 
+#cavas_menu { background-color:#302626} 
+#leo-top-menu .nav > li { border-color:#6e2f2f} 
+#cavas_menu a { color:#632828} 
+
+/* customize for footer-top */ 
+#footertop .container { background-color:#4f0f0f} 
+#footertop a { color:#8a2121} 
+
+/* customize for footer-center */ 
+#footercenter .container { background-color:#120f0f} 
+.footer-container #footercenter .container > div { border-color:#0d0404} 
+
+/* customize for powered */ 
+#footernav .container > div.inner { background-color:#401515} 
+#footernav .container > div.inner { background-image:url(../../img/patterns/pattern6.png)} 
+
+/* customize for product */ 
+
+/* customize for modules */ 
+
+/* customize for highlighted-modules */ 

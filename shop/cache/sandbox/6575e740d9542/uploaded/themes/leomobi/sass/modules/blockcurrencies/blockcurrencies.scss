@@ -1,0 +1,11 @@
+@import "compass";
+@import "theme_variables";
+
+#currencies-block-top {
+	@include rtl-float-right();
+	position: relative;
+	@include rtl-margin-left(10px);
+	span.firstWord {
+		display: none;
+	}
+}

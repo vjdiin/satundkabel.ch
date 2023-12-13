@@ -1,0 +1,90 @@
+@import "compass";
+@import "theme_variables";
+
+/*******************************************************
+Product list Styles
+********************************************************/
+
+
+/*******************************************************
+Product list(List) Styles 
+********************************************************/
+
+.product_list.list {
+	> .ajax_block_product {
+		.product-image-container {
+			.content_price {
+				display: none !important;	
+			}
+		}
+		.product-flags {
+			color: $base-text-color;
+			margin: -5px 0 10px 0;
+			.discount {
+				color: #f13340;	
+			}
+		}
+		h5 {
+			padding-bottom: 8px;
+		}
+		.product-desc {
+			margin-bottom: 15px;
+		}
+		.center-block {	
+			.comments_note {
+				margin-bottom: 12px;	
+			}
+		}
+		.right-block {
+			.right-block-content {
+					margin: 0;
+					padding: 10px 0 0 15px;
+				.content_price {
+					padding-bottom: 10px;
+
+					span{
+						display: inline-block;
+						&.product-price.old-price {
+							margin-right: 8px;
+							font-size: 14px;
+						}
+						&.product-price {font-size: 20px;}
+					}
+				}
+				.button-container {
+					overflow: hidden;
+					margin: 10px 0;
+					.btn {
+						margin-bottom: 10px;
+					}
+				}
+				.functional-buttons {
+					a {font-size: 13px; cursor: pointer;}
+					.wishlist {
+						border:none;		
+					}
+					.compare {
+						padding-top: 10px;
+						a {
+							&:before {
+								margin-right:10px;	
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/*******************************************************
+Product list(Index page) Styles 
+********************************************************/
+
+/***** IE code *****/
+
+.ie8 {
+	.quick-view	 {
+		background: #fff;
+		border: 1px solid $base-border-color;	
+	}
+}

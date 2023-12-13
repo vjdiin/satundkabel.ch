@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_07bb9c22123eb7b90fcb426f1cb9720a'] = 'Leo Gestisci Widget';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_adb5849189804de6730bc9a56d729ef8'] = 'Leo Gestione supporto Widget Leo FrameWork Verion 3.0.';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configurazione aggiornata';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_7f82c65d548588c8d5412463c182e450'] = 'La configurazione non può essere aggiornato.';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_692b3edc66434e719875aa2ecf8fbeaa'] = 'Gestire il controllo Widget Pagina';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_204c3f1c7fbd80b0725587c336ad0aa0'] = 'È possibile creare una nuova colonna dalla Disp Widget. Si prega di considerare durante la creazione di colonna nel gruppo non-gruppo o';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_c9cc8cce247e49bae79f15173ce97354'] = 'Salvare';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_0d97a3148a27058637a058e3158e2511'] = 'closeoropen';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_1f135dfa271a05c8d80eef87e73693b6'] = 'Chiudere tutte le forme';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_870ca3af727ae16de606b6dc65f78ad2'] = 'openorclose';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_abde7ca0c2cf096ae5c68f912d7873de'] = 'Espandi tutte le forme';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_aa957ef456f55cc31d7798b03806c84d'] = 'Gestisci Widget';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_700e2c3b7b442c597c781eac801408b6'] = '___________ CUSTOM ___________';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_6957667301f05bce7e2c0b5cd8567df5'] = '____________ NUCLEO ____________';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_b915c3f2926eb2dacadf11e7c5b904d7'] = 'Nascosto in dispositivi di grandi dimensioni';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_200120bcca3122c156ec816080fe07d9'] = 'Nascosto in dispositivi Medie';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_6255dcec0f04135fa161d03e6bb46ea2'] = 'Nascosto in piccoli dispositivi';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_87147971120558dba2382337684846fe'] = 'Nascosto in piccoli dispositivi supplementari';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_6840b02c2234cbeba4daa985c97d6f0f'] = 'Nascosto in Smart Phone';
+$_MODULE['<{leomanagewidgets}leomobi>tab_f15c1cae7882448b3fb0404682e17e61'] = 'Contenuto';
+$_MODULE['<{leomanagewidgets}leomobi>tab_e6a8f76165a3effbf2efe9f9d68063fa'] = 'Scheda Contenuto';
+$_MODULE['<{leomanagewidgets}leomobi>widget_manucarousel_3426bf3cca12b1f6550fd8bd36171e2f'] = 'visualizza i prodotti';
+$_MODULE['<{leomanagewidgets}leomobi>widget_manufacture_3426bf3cca12b1f6550fd8bd36171e2f'] = 'visualizza i prodotti';
+$_MODULE['<{leomanagewidgets}leomobi>widget_newsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'Notiziario';
+$_MODULE['<{leomanagewidgets}leomobi>widget_newsletter_893db342db35878a6d5388e6409b32b2'] = 'Newsletter: indirizzo email valido';
+$_MODULE['<{leomanagewidgets}leomobi>widget_newsletter_416f61a2ce16586f8289d41117a2554e'] = 'la tua e-mail';
+$_MODULE['<{leomanagewidgets}leomobi>widget_newsletter_1fb103afe92d693ae23d0463b185a9a7'] = 'Go!';
+$_MODULE['<{leomanagewidgets}leomobi>widget_product_03c2e7e41ffc181a4e84080b4710e81e'] = 'Nuovo';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_c91e4ee170226d66e90f99ba917e4c20'] = 'Quick view';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_03c2e7e41ffc181a4e84080b4710e81e'] = 'Nuovo';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_f2cd171bd42220283b7a595c3ff2aaaf'] = 'Vendita';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_2d0f6b8300be19cf35e89e66f0677f95'] = 'Aggiungi al carrello';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_4351cfebe4b61d8aa5efa1d020710005'] = 'View';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_d3da97e2d9aee5c8fbe03156ad051c99'] = 'Di più';

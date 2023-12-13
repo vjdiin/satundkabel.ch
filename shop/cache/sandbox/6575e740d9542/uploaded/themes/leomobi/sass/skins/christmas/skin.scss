@@ -1,0 +1,12 @@
+@import "compass";
+@import "theme_variables";
+
+//Image
+
+$image-theme-base-path : 'img/';
+
+
+/* Christmas  */
+ #page {background:url('#{$image-theme-base-path}bg_page.png') repeat-x center top; }
+ #footer {background:url('#{$image-theme-base-path}bg_footer.png') no-repeat center bottom; padding-bottom:290px}
+ body{ background: url('#{$image-theme-base-path}bg_body.jpg') repeat}

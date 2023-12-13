@@ -1,0 +1,37 @@
+/* *****************************************************************
+	reset
+****************************************************************** */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {font-family: $font-custom;}
+a:hover {
+  	text-decoration: none;
+    @include skin-color($theme-color-secondary);
+}
+a {color: $base-body-color}
+a:focus {outline: none; text-decoration: none;}
+body {
+    font-family: $font-custom;
+  	height: 100%;
+  	line-height: 18px;
+  	font-size: $font-size-base;
+  	color: $base-body-color;
+    background-image: url('#{$image-theme-path}bg_body.png');
+    background-color: #fff;
+    background-repeat: repeat;
+  	&.content_only {
+   		background: none;
+  	}
+}
+textarea {
+  	resize: none;
+}
+ul, li {list-style:none; }
+img {max-width: 100%;}
+/* ******************************************************************
+	Bootstrap
+******************************************************************* */
+.form-horizontal .control-label, .form-horizontal .radio, 
+.form-horizontal .checkbox, .form-horizontal .radio-inline, 
+.form-horizontal .checkbox-inline{
+	padding-top: 0;
+}

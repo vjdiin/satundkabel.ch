@@ -1,0 +1,31 @@
+/* RIGHT TO LEFT */
+/*********************************************************************
+					Maintenance Page Styles
+**********************************************************************/
+#maintenance {
+  margin: 50px 0 0 0;
+}
+#maintenance .logo {
+  margin: 0 0 31px 0;
+}
+#maintenance h1 {
+  font: 600 28px/34px "Roboto", sans-serif;
+  color: #2e3039;
+  text-transform: uppercase;
+  border-bottom: 1px solid #dedede;
+  padding: 0 0 14px 0;
+  margin: 0 0 19px 0;
+}
+#maintenance #message {
+  font: 600 16px/31px "Roboto", sans-serif;
+  padding: 0 0 0 18px;
+  color: #555454;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

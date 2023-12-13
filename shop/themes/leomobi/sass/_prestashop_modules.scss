@@ -1,0 +1,505 @@
+//CSS Modules
+//IMPORTANT - Internet Explorer can read 31 CSS files max. Some CSS have been put here and erased from their own module folder.
+
+//Block ADVERTISING
+.advertising_block {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+//footer
+.blockcategories_footer ul ul {
+  	display: none !important;
+}
+.blockcategories_footer {
+  	clear: left;
+}
+
+// BLOCK .footer_links (cms pages)
+ul.footer_links {
+  padding: 20px 0 0px 0;
+  border-top: 1px solid $base-border-color;
+  margin-bottom: 20px;
+  li {
+    @include rtl-float-left ();
+    &+li {
+      margin-left: 10px;
+    }
+  }
+}
+
+// module productcomments
+.rating {
+  clear: both;
+  display: block;
+  margin: 2em;
+  cursor: pointer;
+}
+
+.rating:after {
+  content: ".";
+  display: block;
+  height: 0;
+  width: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.cancel, .star {
+  overflow: hidden;
+  @include rtl-float-left ();
+  margin: 0 1px 0 0;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.cancel, .cancel a {
+  background: url(../../../modules/productcomments/img/delete.gif) no-repeat 0 -16px !important;
+}
+
+.cancel a, .star a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: 0 0;
+}
+
+div.star_on a {
+  background-position: 0 -16px;
+}
+
+div.star_hover a,
+div.star a:hover {
+  background-position: 0 -32px;
+}
+
+.pack_content {
+  margin: 10px 0 10px 0;
+}
+
+.confirmation {
+  margin: 0 0 10px;
+  padding: 10px;
+  border: 1px solid #e6db55;
+  font-size: 13px;
+  background: none repeat scroll 0 0 lightyellow;
+}
+
+#page .rte {
+  background: transparent none repeat scroll 0 0;
+}
+
+.listcomment {
+  list-style-type: none;
+  margin: 0 0 20px 0 !important;
+}
+
+.listcomment li {
+  padding: 10px 0;
+  border-bottom: 1px dotted $base-border-color;
+  color: #666666;
+}
+
+.listcomment .titlecomment {
+  display: block;
+  font-weight: $theme-font-weight;
+  font-size: 12px;
+  color: $base-text-color;
+}
+
+.listcomment .txtcomment {
+  display: block;
+  padding: 5px 0;
+  color: $base-text-color;
+}
+
+//addon RerversoForm
+#account-creation_form fieldset.reversoform {
+  padding: 10px !important;
+}
+
+#account-creation_form fieldset.reversoform .text label {
+  display: block;
+  padding: 0 0 10px 0;
+  width: 100%;
+  @include rtl-text-align-left();
+}
+
+#account-creation_form fieldset.reversoform .infos-sup {
+  padding: 0 !important;
+  font-size: 10px;
+  font-style: italic;
+  @include rtl-text-align-right();
+}
+
+//addon customer privacy
+#account-creation_form fieldset.customerprivacy label,
+fieldset.customerprivacy label {
+  cursor: pointer;
+}
+
+//addon referralprogram
+.tab-content {
+  margin-top: 20px;
+}
+
+//addons comments products
+form#sendComment fieldset {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  background: #eeeeee;
+}
+
+form#sendComment h3 {
+  font-size: 14px;
+}
+
+#new_comment_form p.text {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#sendComment p.text label,
+#sendComment p.textarea label {
+  display: block;
+  margin: 12px 0 4px;
+  font-weight: $theme-font-weight;
+  font-size: 12px;
+}
+
+#sendComment p.text input {
+  padding: 0 5px;
+  height: 28px;
+  width: 498px;
+  border: 1px solid #cccccc;
+  background: url(../img/bg_input.png) repeat-x 0 0 $light-background;
+}
+
+#sendComment p.textarea textarea {
+  height: 80px;
+  width: 508px;
+  border: 1px solid #cccccc;
+}
+
+#sendComment p.submit {
+  padding: 0;
+  @include rtl-text-align-right();
+}
+
+#sendComment p.closeform {
+  @include rtl-float-right ();
+  padding: 0;
+  height: 12px;
+  width: 12px;
+  text-indent: -5000px;
+  background: url(../img/icon/delete.gif) no-repeat 0 0;
+}
+
+.star {
+  position: relative;
+  top: -1px;
+  @include rtl-float-left ();
+  width: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.star {
+  display: block;
+  a {
+    display: block;
+    position: absolute;
+    text-indent: -5000px;
+  }
+}
+
+div.star {
+  &:after {
+    content: "\f006";
+    font-family: $font-icon;
+    display: inline-block;
+    color: #777676;
+  }
+}
+
+div.star.star_on {
+  display: block;
+  &:after {
+    content: "\f005";
+    font-family: $font-icon;
+    display: inline-block;
+    color: #ef8743;
+  }
+}
+
+div.star.star_hover {
+  &:after {
+    content: "\f005";
+    font-family: $font-icon;
+    display: inline-block;
+    color: #ef8743;
+  }
+}
+
+//Block Contact Infos
+#block_contact_infos {
+      > div {
+        padding: 0 0 0 5px;
+        ul {
+          li {
+            padding: 0 0 7px 4px;
+            overflow: hidden;
+            line-height: 30px;
+            > span,
+            > span a {
+              color: $light-text-color;
+              font-weight: normal;
+            }
+            i {
+              font-size: 25px;
+              width: 32px;
+              text-align: center;
+              padding-right: 12px;
+              @include rtl-float-left ();
+              color: #908f8f;
+            }
+          }
+        }
+      }
+    }
+
+//Reinsurance Block
+#reinsurance_block {
+  	clear: both !important;
+}
+
+// Social Block
+#social_block {
+   @include rtl-float-left ();
+    margin-top: 6px;
+    ul {
+        @include rtl-float-right ();
+        li {
+          	@include rtl-float-left ();
+          	text-align: center;
+          	a {
+	            display: inline-block;
+	            color: $light-text-color;;
+	            font-size: 14px;
+              background: $theme-color-default;
+              width:35px;
+              padding:5px 0;
+              margin-left: 10px;
+              @include border-radius(4px);
+	            span {
+	              	display: none;
+	            }
+            	&:before {
+	              	display: inline-block;
+	              	font-family: $font-icon;
+            	}
+            	&:hover {
+                @include skin-background-color($theme-color-secondary);
+              	color: $light-text-color;
+            	}
+          	}
+          	&.facebook {
+            	a {
+	              	&:before {
+	                	content: "\f09a";
+	              	}
+           	 	}
+          	}
+          	&.twitter {
+	            a {
+	              	&:before {
+	                	content: "\f099";
+	              	}
+	            }
+          	}
+          &.rss {
+            a {
+              &:before {
+                content: "\f09e";
+              }
+            }
+          }
+          &.youtube {
+            a {
+              &:before {
+                content: "\f167";
+              }
+            }
+          }
+          &.google-plus {
+            a {
+              &:before {
+                content: "\f0d5";
+              }
+            }
+          }
+          &.pinterest {
+            a {
+              &:before {
+                content: "\f0d2";
+              }
+            }
+          }
+        }
+      }
+      h4 {
+        @include rtl-float-left ();
+        margin-bottom: 0;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 25px;
+        font-weight: $theme-font-weight;
+        margin-top: 6px;
+        color: #4D4E4F;
+        margin-right: 10px;
+      }
+    }
+
+//Homepage pre-footer
+#facebook_block,
+#cmsinfo_block {
+  	overflow: hidden;
+  	background: $homepage-footer-bg;
+  	min-height: 344px;
+  	padding-right: 29px;
+  	padding-left: 29px;
+}
+
+#facebook_block {
+  	h4 {
+    	padding: 35px 0 0 0;
+    	margin: 0 0 12px 0;
+    	font: 300 21px / 25px $font-custom;
+    	color: lighten($base-heading-color, 10%);
+  	}
+  	.facebook-fanbox {
+	    background: $light-background;
+	    border: 1px solid #aaaaaa;
+	    padding-bottom: 10px;
+  	}
+}
+
+#cmsinfo_block {
+  	border-left: 1px solid $homepage-footer-border;
+  	> div {
+    	padding: 35px 10px 0 0;
+  	}
+  	> div + div {
+	    border-left: 1px solid $homepage-footer-border;
+	    min-height: 344px;
+	    padding-left: 29px;
+  	}
+  em {
+    @include rtl-float-left ();
+    width: 60px;
+    height: 60px;
+    margin: 3px 10px 0 0;
+    font-size: 30px;
+    color: $light-text-color;
+    line-height: 60px;
+    text-align: center;
+    background: lighten($base-heading-color, 10%);
+    @include border-radius(100px);
+  }
+  .type-text {
+    overflow: hidden;
+  }
+  h3 {
+    margin: 0 0 5px 0;
+    font: 300 21px / 25px $font-custom;
+    color: lighten($base-heading-color, 10%);
+  }
+  ul {
+    li {
+      padding-bottom: 22px;
+    }
+  }
+  p {
+    em {
+      background: none;
+      @include border-radius(0);
+      margin: 0;
+      font-size: 13px;
+      color: $text-color;
+      float: none;
+      height: inherit;
+      line-height: inherit;
+      @include rtl-text-align-left();
+      font-style: italic;
+    }
+  }
+}
+
+.ie8 {
+  #facebook_block,
+  #cmsinfo_block {
+    height: 344px;
+  }
+}
+
+//Social Sharing
+.btn-facebook, .btn-twitter, .btn-google-plus, .btn-pinterest {
+  &:hover {
+    border-color: white;
+  }
+}
+
+.btn-facebook {
+  i {
+    color: #435f9f;
+  }
+  &:hover {
+    color: white;
+    background-color: #435f9f;
+    i {
+      color: white;
+    }
+  }
+}
+
+.btn-twitter {
+  i {
+    color: #00aaf0;
+  }
+  &:hover {
+    color: white;
+    background-color: #00aaf0;
+    i {
+      color: white;
+    }
+  }
+}
+
+.btn-google-plus {
+  i {
+    color: #e04b34;
+  }
+  &:hover {
+    color: white;
+    background-color: #e04b34;
+    i {
+      color: white;
+    }
+  }
+}
+
+.btn-pinterest {
+  i {
+    color: #ce1f21;
+  }
+  &:hover {
+    color: white;
+    background-color: #ce1f21;
+    i {
+      color: white;
+    }
+  }
+}

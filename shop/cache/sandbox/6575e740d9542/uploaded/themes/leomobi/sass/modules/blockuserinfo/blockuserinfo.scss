@@ -1,0 +1,18 @@
+@import "compass";
+@import "theme_variables";
+
+.header_user_info {
+	@include rtl-float-right();
+	border-left: 1px solid #515151;
+	border-right: 1px solid #515151;
+	a {
+		color: $light-text-color;
+		font-weight: bold;
+		display: block;
+		padding: 8px 9px 11px 8px;
+		cursor: pointer;
+		&:hover, &.active {
+			background: #2b2b2b;
+		}
+	}
+}

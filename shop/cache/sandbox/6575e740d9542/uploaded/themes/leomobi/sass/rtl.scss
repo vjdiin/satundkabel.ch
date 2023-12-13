@@ -1,0 +1,51 @@
+@import "compass";
+@import "theme_variables";
+
+// Core variables and mixins
+@import "bootstrap_lib/variables";
+@import "bootstrap_lib/mixins";
+
+// Core CSS
+@import "bootstrap_lib/rtl/grid";
+// Utility classes
+@import "bootstrap_lib/rtl/utilities";
+@import "bootstrap_lib/rtl/responsive-utilities";
+
+/********************************************************
+			Right to Left Styles
+********************************************************/
+
+.container {
+    padding: 0 20px;
+}
+
+* {
+	direction: rtl !important;
+}
+#page {
+	text-align: right !important;
+}
+
+// paneltool
+
+.panelbutton {
+    -webkit-box-shadow: -3px 1px 2px #888888;
+    box-shadow: -3px 1px 2px #888888;
+ }
+.fancybox-margin {margin-right: 0px!important;}
+
+.editortool .label-customize {
+    background-image: url('#{$image-theme-path}label_customize-1.png');
+}
+.editortool .label-customize:hover {
+    background-position: 0 -111px;
+}
+.block .list-block li {
+	a {
+		&:before {
+			content: "\f104";
+		}
+	}
+}
+
+.carousel-inner .row .ajax_block_product:first-child .leo-more-info, .tab-pane .row .ajax_block_product:first-child .leo-more-info {right:auto;}

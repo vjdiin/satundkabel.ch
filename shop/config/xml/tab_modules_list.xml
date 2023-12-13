@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tab_modules_list>
+    <tab class_name="AdminProducts" display_type="slider_list">
+        <module name="storecommanderps" position="1"/>
+        <module name="onlive" position="2"/>
+        <module name="viqeo" position="3"/>
+        <module name="ndk_advanced_custom_fields" position="4"/>
+        <module name="pm_advancedpack" position="5"/>
+        <module name="cdesigner" position="6"/>
+        <module name="ultimateimagetool" position="7"/>
+    </tab>
+    <tab class_name="AdminCategories" display_type="slider_list">
+        <module name="innovativemenu" position="1"/>
+        <module name="productsbycategoryslider" position="2"/>
+        <module name="slidercategory" position="3"/>
+        <module name="apiway" position="4"/>
+    </tab>
+    <tab class_name="AdminTracking" display_type="slider_list">
+        <module name="apiway" position="1"/>
+    </tab>
+    <tab class_name="AdminAttributesGroups" display_type="slider_list">
+        <module name="apiway" position="1"/>
+    </tab>
+    <tab class_name="AdminFeatures" display_type="slider_list">
+        <module name="storecommanderps" position="1"/>
+        <module name="pm_advancedpack" position="2"/>
+        <module name="ndk_advanced_custom_fields" position="3"/>
+        <module name="cdesigner" position="4"/>
+        <module name="configurator" position="5"/>
+    </tab>
+    <tab class_name="AdminManufacturers" display_type="slider_list">
+        <module name="codisto" position="1"/>
+        <module name="cedwish" position="2"/>
+        <module name="faire" position="3"/>
+        <module name="edrone_crm" position="4"/>
+        <module name="ceneo_xml" position="5"/>
+        <module name="storecommanderps" position="6"/>
+        <module name="hicarouselspack" position="7"/>
+        <module name="manufacturerscarousel" position="8"/>
+        <module name="productsindex" position="9"/>
+        <module name="an_brandslider" position="10"/>
+        <module name="manufacturerblock" position="11"/>
+    </tab>
+    <tab class_name="AdminSuppliers" display_type="slider_list">
+        <module name="apiway" position="1"/>
+        <module name="prestashoptoquickbooks" position="2"/>
+    </tab>
+    <tab class_name="AdminTags" display_type="slider_list">
+        <module name="etranslation" position="1"/>
+        <module name="bablic" position="2"/>
+    </tab>
+    <tab class_name="AdminOrders" display_type="slider_list">
+        <module name="smartsupp" position="1"/>
+        <module name="storecommanderps" position="2"/>
+        <module name="amazon" position="3"/>
+        <module name="creativeelements" position="4"/>
+        <module name="cdc_googletagmanager" position="5"/>
+        <module name="migrationpro" position="6"/>
+        <module name="pscartabandonmentpro" position="7"/>
+    </tab>
+    <tab class_name="AdminInvoices" display_type="slider_list">
+        <module name="molonies" position="1"/>
+        <module name="taxdoo" position="2"/>
+        <module name="ordertaxprofitreport" position="3"/>
+        <module name="ba_prestashop_invoice" position="4"/>
+        <module name="vatnumbercleaner" position="5"/>
+    </tab>
+    <tab class_name="AdminReturn" display_type="slider_list">
+        <module name="apiway" position="1"/>
+    </tab>
+    <tab class_name="AdminDeliverySlip" display_type="slider_list">
+        <module name="mondialrelay" position="1"/>
+        <module name="springxbs" position="2"/>
+        <module name="hubooprestashop" position="3"/>
+        <module name="pakke_module" position="4"/>
+        <module name="m4pdf" position="5"/>
+        <module name="directlabelprintproduct" position="6"/>
+        <module name="pspickinglist" position="7"/>
+        <module name="directlabelprint" position="8"/>
+    </tab>
+    <tab class_name="AdminSlip" display_type="slider_list">
+        <module name="molonies" position="1"/>
+        <module name="lgabonos" position="2"/>
+        <module name="ba_prestashop_invoice" position="3"/>
+    </tab>
+    <tab class_name="AdminStatuses" display_type="slider_list">
+        <module name="packlinkpro" position="1"/>
+        <module name="chronopost" position="2"/>
+        <module name="dpdfrance" position="3"/>
+        <module name="orderedit" position="4"/>
+        <module name="wkmanagesuppliers" position="5"/>
+        <module name="ets_ordermanager" position="6"/>
+    </tab>
+    <tab class_name="AdminOrderMessage" display_type="slider_list">
+        <module name="etranslation" position="1"/>
+        <module name="bablic" position="2"/>
+        <module name="apiway" position="3"/>
+        <module name="zendesk" position="4"/>
+    </tab>
+    <tab class_name="AdminCustomers" display_type="slider_list">
+        <module name="ps_facebook" position="1"/>
+        <module name="judgeme" position="2"/>
+        <module name="smartsupp" position="3"/>
+        <module name="trustpilot" position="4"/>
+        <module name="ps_microsoft" position="5"/>
+        <module name="netreviews" position="6"/>
+        <module name="trustedshopseasyintegration" position="7"/>
+        <module name="tiktokforbusiness" position="8"/>
+        <module name="gsnippetsreviews" position="9"/>
+        <module name="opartdevis" position="10"/>
+        <module name="whatsappchat" position="11"/>
+        <module name="ets_contactform7" position="12"/>
+    </tab>
+    <tab class_name="AdminAddresses" display_type="slider_list">
+        <module name="stampsdotcom" position="1"/>
+    </tab>
+    <tab class_name="AdminGroups" display_type="slider_list">
+        <module name="export2Idealoofficial" position="1"/>
+        <module name="storecommanderps" position="2"/>
+        <module name="judgeme" position="3"/>
+        <module name="trustpilot" position="4"/>
+        <module name="netreviews" position="5"/>
+        <module name="restrictcustomergroup" position="6"/>
+    </tab>
+    <tab class_name="AdminCarts" display_type="slider_list">
+        <module name="followup" position="1"/>
+        <module name="ps_followup" position="2"/>
+        <module name="cartabandonmentpro" position="3"/>
+    </tab>
+    <tab class_name="AdminCustomerThreads" display_type="slider_list">
+        <module name="klaviyopsautomation" position="1"/>
+        <module name="mailinblue" position="2"/>
+        <module name="smartsupp" position="3"/>
+        <module name="tidiolivechat" position="4"/>
+        <module name="mailchimpintegration" position="5"/>
+        <module name="klaviyops" position="6"/>
+        <module name="ecomailemailmarketing" position="7"/>
+        <module name="ets_contactform7" position="8"/>
+        <module name="ets_cfultimate" position="9"/>
+        <module name="superuser" position="10"/>
+        <module name="ets_livechat" position="11"/>
+        <module name="returnmanager" position="12"/>
+    </tab>
+    <tab class_name="AdminContacts" display_type="slider_list">
+        <module name="mailinblue" position="1"/>
+        <module name="smartsupp" position="2"/>
+        <module name="tidiolivechat" position="3"/>
+        <module name="mailchimpintegration" position="4"/>
+        <module name="klaviyops" position="5"/>
+        <module name="ets_cfultimate" position="6"/>
+        <module name="ets_contactform7" position="7"/>
+        <module name="ets_livechat" position="8"/>
+        <module name="faqs" position="9"/>
+    </tab>
+    <tab class_name="AdminCartRules" display_type="slider_list">
+        <module name="psxmarketingwithgoogle" position="1"/>
+        <module name="ps_facebook" position="2"/>
+        <module name="ps_metrics" position="3"/>
+        <module name="mailchimpintegration" position="4"/>
+        <module name="ps_microsoft" position="5"/>
+        <module name="klaviyops" position="6"/>
+        <module name="mailinblue" position="7"/>
+        <module name="pscartabandonmentpro" position="8"/>
+    </tab>
+    <tab class_name="AdminSpecificPriceRule" display_type="slider_list">
+        <module name="export2Idealoofficial" position="1"/>
+        <module name="allinone_rewards" position="2"/>
+        <module name="pm_advancedpack" position="3"/>
+        <module name="quantitydiscountpro" position="4"/>
+        <module name="giftcard" position="5"/>
+        <module name="pushoncart" position="6"/>
+    </tab>
+    <tab class_name="AdminMarketing" display_type="default_list">
+        <module name="tiktokforbusiness" position="1"/>
+        <module name="mailchimppro" position="2"/>
+        <module name="sendinblue" position="3"/>
+        <module name="klaviyops" position="4"/>
+        <module name="cleverppc" position="5"/>
+        <module name="shopimind" position="6"/>
+        <module name="gamify" position="7"/>
+        <module name="usercentrics" position="8"/>
+        <module name="glotio" position="9"/>
+        <module name="magnalister" position="10"/>
+        <module name="innovativemenu" position="11"/>
+        <module name="pushoncart" position="12"/>
+        <module name="prestanotify" position="13"/>
+        <module name="pushslide" position="14"/>
+        <module name="seohelping" position="15"/>
+        <module name="vente_flash" position="16"/>
+        <module name="privatesale" position="17"/>
+        <module name="referralprogram" position="18"/>
+    </tab>
+    <tab class_name="AdminPayment" display_type="default_list">
+        <module name="ps_checkout" position="1"/>
+        <module name="pspaylater" position="2"/>
+        <module name="paypal" position="3"/>
+        <module name="stripe_official" position="4"/>
+        <module name="revolutpayment" position="5"/>
+        <module name="payplug" position="6"/>
+        <module name="mollie" position="7"/>
+        <module name="amazonpay" position="8"/>
+        <module name="bridge" position="9"/>
+        <module name="adyenofficial" position="10"/>
+        <module name="clearpay" position="11"/>
+        <module name="klarnapaymentsofficial" position="12"/>
+        <module name="sumuppaymentgateway" position="13"/>
+        <module name="squareofficial" position="14"/>
+        <module name="nexixpay" position="15"/>
+        <module name="vivawalletofficial" position="16"/>
+        <module name="mercadopago" position="17"/>
+        <module name="scalapay" position="18"/>
+        <module name="qonto" position="19"/>
+        <module name="carddynamics" position="20"/>
+        <module name="sdevmonetico" position="21"/>
+        <module name="worldline" position="22"/>
+        <module name="pm_applepay" position="23"/>
+    </tab>
+    <tab class_name="AdminCarriers" display_type="slider_list">
+        <module name="dhlexpress" position="1"/>
+        <module name="mbeshipping" position="2"/>
+        <module name="shipstation" position="3"/>
+        <module name="springxbs" position="4"/>
+        <module name="gelproximity" position="5"/>
+        <module name="isendu" position="6"/>
+        <module name="mondialrelay" position="7"/>
+        <module name="colissimo" position="8"/>
+        <module name="delivengo" position="9"/>
+        <module name="boxtalconnect" position="10"/>
+        <module name="chronopost" position="11"/>
+        <module name="dpdfrance" position="12"/>
+        <module name="sendcloud" position="13"/>
+        <module name="hubooprestashop" position="14"/>
+        <module name="cubyn" position="15"/>
+        <module name="geodisofficiel" position="16"/>
+        <module name="ec_reliquat" position="17"/>
+        <module name="soflexibilite" position="18"/>
+        <module name="upsservice" position="19"/>
+    </tab>
+    <tab class_name="AdminShipping" display_type="slider_list">
+        <module name="dhlexpress" position="1"/>
+        <module name="mbeshipping" position="2"/>
+        <module name="shipstation" position="3"/>
+        <module name="gelproximity" position="4"/>
+        <module name="isendu" position="5"/>
+        <module name="springxbs" position="6"/>
+        <module name="sendcloud" position="7"/>
+        <module name="colissimo" position="8"/>
+        <module name="dpdfrance" position="9"/>
+        <module name="chronopost" position="10"/>
+        <module name="delivengo" position="11"/>
+        <module name="prestatilldrive" position="12"/>
+        <module name="estimateddelivery" position="13"/>
+        <module name="lgfreeshippingzones" position="14"/>
+    </tab>
+    <tab class_name="AdminLocalization" display_type="slider_list">
+        <module name="etranslation" position="1"/>
+    </tab>
+    <tab class_name="AdminZones" display_type="slider_list">
+        <module name="etranslation" position="1"/>
+        <module name="bablic" position="2"/>
+        <module name="zendesk" position="3"/>
+    </tab>
+    <tab class_name="AdminCountries" display_type="slider_list">
+        <module name="etranslation" position="1"/>
+        <module name="bablic" position="2"/>
+    </tab>
+    <tab class_name="AdminCurrencies" display_type="slider_list">
+        <module name="prestashoptoquickbooks" position="1"/>
+    </tab>
+    <tab class_name="AdminTaxes" display_type="slider_list">
+        <module name="vatnumber" position="1"/>
+        <module name="prestashoptoquickbooks" position="2"/>
+    </tab>
+    <tab class_name="AdminTaxRulesGroup" display_type="slider_list">
+        <module name="vatnumber" position="1"/>
+        <module name="banipmod" position="2"/>
+        <module name="prestashoptoquickbooks" position="3"/>
+    </tab>
+    <tab class_name="AdminTranslations" display_type="slider_list">
+        <module name="etranslation" position="1"/>
+    </tab>
+    <tab class_name="AdminPreferences" display_type="slider_list">
+        <module name="mailalerts" position="1"/>
+        <module name="feeder" position="2"/>
+        <module name="ps_feeder" position="3"/>
+    </tab>
+    <tab class_name="AdminOrderPreferences" display_type="slider_list">
+        <module name="mailalerts" position="1"/>
+        <module name="apiway" position="2"/>
+    </tab>
+    <tab class_name="AdminPPreferences" display_type="slider_list">
+        <module name="mailalerts" position="1"/>
+        <module name="feeder" position="2"/>
+        <module name="ps_feeder" position="3"/>
+    </tab>
+    <tab class_name="AdminCustomerPreferences" display_type="slider_list">
+        <module name="fianetsceau" position="1"/>
+        <module name="zendesk" position="2"/>
+    </tab>
+    <tab class_name="AdminThemes" display_type="slider_list">
+        <module name="easywebtoapp" position="1"/>
+    </tab>
+    <tab class_name="AdminMeta" display_type="slider_list">
+        <module name="pm_seointernallinking" position="1"/>
+        <module name="gmerchantcenter" position="2"/>
+        <module name="cdc_googletagmanager" position="3"/>
+        <module name="gmerchantcenterpro" position="4"/>
+        <module name="ybc_blog" position="5"/>
+    </tab>
+    <tab class_name="AdminCmsContent" display_type="slider_list">
+        <module name="trustedshopseasyintegration" position="1"/>
+        <module name="glotio" position="2"/>
+        <module name="creativeelements" position="3"/>
+        <module name="productlabel" position="4"/>
+        <module name="lyopageeditor" position="5"/>
+        <module name="ets_homecategories" position="6"/>
+    </tab>
+    <tab class_name="AdminImages" display_type="slider_list">
+        <module name="creativeelements" position="1"/>
+    </tab>
+    <tab class_name="AdminSearchConf" display_type="slider_list">
+        <module name="motive" position="1"/>
+        <module name="pm_advancedsearch4" position="2"/>
+        <module name="ambjolisearch" position="3"/>
+        <module name="amazzingfilter" position="4"/>
+        <module name="pm_multiplefeatures" position="5"/>
+    </tab>
+    <tab class_name="AdminGeolocation" display_type="slider_list">
+    </tab>
+    <tab class_name="AdminInformation" display_type="slider_list">
+        <module name="a2hosting" position="1"/>
+        <module name="oneandonehosting" position="2"/>
+    </tab>
+    <tab class_name="AdminPerformance" display_type="slider_list">
+        <module name="oneandonehosting" position="1"/>
+        <module name="jmango360_api" position="2"/>
+
+    </tab>
+    <tab class_name="AdminEmails" display_type="slider_list">
+        <module name="klaviyopsautomation" position="1"/>
+        <module name="mailchimpintegration" position="2"/>
+        <module name="klaviyops" position="3"/>
+        <module name="mailinblue" position="4"/>
+        <module name="smartsupp" position="5"/>
+        <module name="ecomailemailmarketing" position="6"/>
+        <module name="ps_emailalerts" position="7"/>
+        <module name="pscookiebanner" position="8"/>
+        <module name="prestagiftvouchers" position="9"/>
+        <module name="hioutofstocknotification" position="10"/>
+    </tab>
+    <tab class_name="AdminImport" display_type="slider_list">
+    </tab>
+    <tab class_name="AdminBackup" display_type="slider_list">
+        <module name="a2hosting" position="1"/>
+        <module name="oneandonehosting" position="2"/>
+    </tab>
+    <tab class_name="AdminRequestSql" display_type="slider_list">
+        <module name="a2hosting" position="1"/>
+        <module name="oneandonehosting" position="2"/>
+    </tab>
+    <tab class_name="AdminLogs" display_type="slider_list">
+        <module name="a2hosting" position="1"/>
+        <module name="oneandonehosting" position="2"/>
+    </tab>
+    <tab class_name="AdminAdminPreferences" display_type="slider_list">
+        <module name="usercentrics" position="1"/>
+        <module name="lgcookieslaw" position="2"/>
+        <module name="creativeelements" position="3"/>
+        <module name="cdc_googletagmanager" position="4"/>
+        <module name="migrationpro" position="5"/>
+    </tab>
+    <tab class_name="AdminStats" display_type="slider_list">
+        <module name="ps_metrics" position="1"/>
+        <module name="thdashboard" position="2"/>
+    </tab>
+    <tab class_name="AdminSearchEngines" display_type="slider_list">
+        <module name="gadwords" position="1"/>
+        <module name="adeptsearch" position="2"/>
+        <module name="doofinder" position="3"/>
+
+    </tab>
+    <tab class_name="AdminReferrers" display_type="slider_list">
+        <module name="trackingfront" position="1"/>
+        <module name="gadwords" position="2"/>
+    </tab>
+</tab_modules_list>

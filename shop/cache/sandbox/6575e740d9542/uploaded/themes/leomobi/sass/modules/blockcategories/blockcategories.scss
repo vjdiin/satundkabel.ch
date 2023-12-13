@@ -1,0 +1,98 @@
+@import "compass";
+@import "theme_variables";
+#categories_block_top {
+  clear: both;
+  position: relative;
+  top: 30px;
+  .sf-menu {
+    position: relative;
+    > li {
+      position: static;
+      > ul {
+        width: 100%;
+        top: 60px;
+        margin: 0 20px;
+        > li {
+          display: block;
+          @include rtl-float-left ();
+          width: 20%;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 0 10px;
+        }
+        > .category_thumb {
+          display: block;
+          clear: both;
+          overflow: hidden;
+          width: 100%;
+          img {
+            display: inline-block;
+            width: 33%;
+          }
+        }
+      }
+      h4 {
+        a {
+          font-size: 1.1em;
+          &:before {
+            display: none;
+          }
+        }
+      }
+      .main-level-submenus {
+        position: relative;
+        display: block !important;
+        visibility: visible !important;
+        top: 0;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+        left: 0;
+      }
+    }
+    .category_thumb {
+      display: none;
+    }
+  }
+}
+.leo-qty {margin-top:9px;}
+#categories_block_left {
+  li {
+    position: relative;
+     span.grower {
+      display: block;
+      @include rtl-float-right ();
+      cursor: pointer;
+      font-family: $font-icon;
+      &.OPEN,
+      &.CLOSE {
+        &:before {
+          content: "\f068";
+          display: block;
+          vertical-align: middle;
+          width: 20px;
+          height: 20px;
+          line-height: 20px;
+          text-align: center;
+          font-size: 10px;
+          margin-top: 8px;
+        }
+      }
+      &.CLOSE:before {
+        content: "\f067";
+      }
+    }
+    li {
+      a {
+        @include rtl-padding-left(25px);
+      }
+      li {
+        a {@include rtl-padding-left(35px);}
+        li {
+          a { @include rtl-padding-left(45px);}
+        }
+      }
+    }
+  }
+}

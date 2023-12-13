@@ -1,0 +1,10 @@
+@import "compass";
+@import "theme_variables";
+#languages-block-top {
+	@include rtl-float-right();
+	position: relative;
+	span.firstWord {
+		display: none;
+	}
+	ul.toogle_content {min-width:135px;}
+}

@@ -1,0 +1,255 @@
+@import "compass";
+@import "theme_variables";
+
+#product_comments_block_extra {
+	line-height: 18px;
+	.comments_note {
+		margin-bottom: 5px;
+	}	
+	.comments_note span,
+	.star_content {
+		 @include rtl-float-left ();
+		color: $base-text-color;
+	}	
+	.star_content {
+		margin:1px 0 0 5px;
+	}	
+	div.star {
+		&:after {
+			content: "\f006";
+			font-family: $font-icon;
+			display: inline-block;
+			color: #777676;
+		}
+	}
+	div.star_on {
+		&:after {
+			content:"\f005";
+			font-family: $font-icon;
+			display: inline-block;
+			color: #ef8743;	
+		}
+	}	
+	.comments_advices {
+		clear:both;
+		margin-bottom: 0;
+	}
+}
+
+.comments_advices {
+	padding-top: 2px;
+	li{
+		display:inline-block;
+		line-height: 30px;
+	}
+	a {  
+		text-decoration: none;	
+		position:relative;	
+		margin-right: 8px;
+		line-height: 30px;
+		padding: 0;
+		display:inline-block;	
+		&:before{
+			display: inline-block;
+			font-family: $font-icon;
+			font-size: 15px;
+			font-weight: normal;
+			height: 30px;
+			line-height: 30px;
+			margin-right: 10px;
+		}
+		&.reviews:before{
+			content: "\f0e5";
+		}
+		&.open-comment-form:before{
+			content: "\f040";
+		}
+		&.reviews{
+			padding-right: 30px;
+			margin-right: 9px;
+		}
+	}
+}
+
+
+/* pop-in add grade/advice ********************************************************************* */
+#fancybox-wrap {
+	width: 585px; 
+}
+#fancybox-content {
+	width: 585px;
+	border-width: 0;
+}
+#new_comment_form {
+	overflow: hidden;
+	color: $base-text-color;
+	@include rtl-text-align-left();	
+	h2{
+		margin-bottom: 10px;
+	}			
+	.title {
+		padding: 10px;
+		font-size: 13px;
+		color: $light-text-color;
+		text-transform: uppercase;
+		background: $dark-background;
+	}
+	ul.grade_content {
+		list-style-type: none;
+		margin: 0 0 20px 0;
+		li{
+			width: 50%;
+		}
+		span{
+			display:inline-block;
+			padding: 0 10px;
+			width: 150px;
+			font-weight: bold;
+		}
+		.cancel {
+			margin-right: 5px;
+		}	
+	}			 
+	.product {
+		padding: 15px;
+		img{
+			border: $main_border;
+		}
+		.product_desc {									
+			line-height: 18px;
+			color: $description-color;
+			.product_name {
+				padding: 10px 0 5px;
+				font-size: 13px;
+				color: #000;
+			}
+		}
+	} 	
+	.new_comment_form_content {
+		padding: 15px 25px 15px 15px;
+		background: #f8f8f8;
+		.intro_form {
+			padding-bottom: 10px;
+			font-weight: bold;
+			font-size: 12px;
+		}
+	}			
+	label {
+		display: block;
+		margin: 12px 0 4px 0;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	input,
+	textarea  {
+		padding: 0 5px;
+		height: 28px;
+		width: 100%;
+		border: 1px solid #ccc;
+		background: $light-background;
+	}
+	textarea {		
+		height: 80px;		
+	}
+	.submit {
+		margin-top: 20px;
+		padding: 0;
+		font-size: 13px;
+		@include rtl-text-align-right();
+	}
+
+	#criterions_list {
+		border-bottom: 1px solid #CCC;
+		padding-bottom: 15px;
+		list-style-type: none;
+		li{
+			margin-bottom: 10px;
+		}
+		label {
+			display: inline;
+			 @include rtl-float-left();
+			margin: 0 10px 0 0;
+		}
+		.star_content {
+			 @include rtl-float-left();
+		}
+	}
+	#new_comment_form_footer {
+		margin-top: 20px;
+		font-size: 12px;
+	}
+}
+/* TAB COMMENTS ******************************************************************************** */
+#product_comments_block_tab {
+	margin: 5px 0 20px 0;
+	div.comment {
+		margin: 0 0 14px;
+		padding-top: 14px;
+		&:first-child{
+			padding: 0;
+			border: none;
+		}
+		.comment_author {		
+			padding: 0 20px;
+			line-height: 18px;
+			span{
+				font-weight: bold;
+				 @include rtl-float-left();
+			}
+			.star_content {
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0 0 0 5px;
+			}
+		}
+		.comment_details {
+			overflow: hidden;
+			border-left: $main_border;	
+			.button {line-height: 10px; margin-left: 5px; font-size: 12px;}
+		}			
+	}
+	div.star {
+		&:after {
+			content: "\f006";
+			font-family: $font-icon;
+			display: inline-block;
+			color: #777676;	
+		} 
+	}
+	div.star_on {
+		&:after {
+			content: "\f005";
+			font-family: $font-icon;
+			display: inline-block;
+			color: #ef8743;	
+		}
+	}
+	.comment_author_infos {
+		clear: both;
+		padding-top: 9px;
+		strong{
+			display: block;
+			color: $base-text-color;
+		}
+		em {
+			color: #adadad;
+		}
+	}	
+	a {
+		text-decoration: none;
+		font-size: 12px;
+	}
+
+	span.report_btn {
+		cursor: pointer;
+	}
+	span.report_btn:hover {
+		text-decoration: underline;
+	}
+}
+.fl {
+	 @include rtl-float-left();
+}
+.fr {
+	 @include rtl-float-right();
+}

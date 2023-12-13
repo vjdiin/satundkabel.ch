@@ -1,0 +1,220 @@
+@import 'bootstrap_lib/_variables';
+@import "bootstrap_lib/mixins";
+
+$rtl-left : left;
+$rtl-right : right;
+
+// Variables
+// --------------------------------------------------
+$image-theme-base-path : '../img/';
+$image-theme-path  : '../img/default/';
+$image-module-path  : '../../../img/default/';
+
+// themes colors
+// -------------------------
+
+$yellow:                #e76d66;
+$purple:                #ac72c3;
+$white :			 	        #FFFFFF;
+$black :				        #000000;
+$nocolor:				        transparent;
+
+//Skin
+$green:                 #1D7E5D;
+$green-light:           #549751;
+$orange:                #FB5A29;
+$pink:                  #EB5E66;
+$red-dark:              #D74142;
+
+$black74:               #4a4a4a;
+$blue:                  #58B0DA;
+$red:                   #F94B4B;
+
+$theme-color-default   : $black74; // using for default color of all pages such as background color for top menu, block header
+$theme-color-primary   : $red; // for hightligh block header, button as default it is  color
+$theme-color-secondary : $blue ;
+
+$theme-font-weight      : 700;
+
+$btn-theme-primary       : $theme-color-default;
+$btn-theme-primary-hover : $theme-color-secondary;
+
+//------- FONTS
+$font-family:				  		Arial, Helvetica, sans-serif;
+$font:						  		  normal 12px/18px $font-family;
+$font-custom:             'Roboto',sans-serif;
+$font-icon:               "FontAwesome";
+
+//-------- BORDERS
+$base-border-color:					#dedede;
+$base-hover-border-color:		$theme-color-secondary;
+$main_border:						    1px solid $base-border-color;
+$dark-border-color:					#333;
+$light-border-color:				#fff;
+$homepage-footer-border:            #d9d9d9;
+
+//--------- BACKGROUNDS
+$base-box-bg:                #fbfbfb;
+$table-background:           $base-box-bg;
+$dark-background:            #333;
+$light-background:           #fff;
+$homepage-footer-bg:          #f2f2f2;
+
+//--------- COLORS
+$base-body-color:           #7E7F80;
+$base-text-color:           #2E3039;
+$base-heading-color:				#4A4A4A;
+$base-title-color:					$base-text-color;
+$light-text-color:          #fff;
+$link-color:						    $link-color;
+$link-hover-color:          $theme-color-secondary;
+$description-color:					$base-body-color;
+
+//--------- Indents
+$base-page-indent:          $grid-gutter-width;
+$base-box-padding:          10px;
+$base-box-indent:           0 0 30px 0;
+
+//--------- Topbar
+$topbar-bg:                 $theme-color-default;
+$topbar-text-color:         $gray-dark;
+
+//---------- Product Elements
+$product-margin:             10px;
+$product-padding:            10px;
+
+$product-border-color:       $base-border-color;
+$product-border-hover-color: $base-hover-border-color;
+
+$product-name-color:         #2E3039;
+$product-name-hover-color:   $link-hover-color;
+$product-name-font-size:     $font-size-base - 2;
+
+$price-color:						     $theme-color-primary;
+$product-price-color:				 $price-color;
+$product-reduced-price:			 $red;
+$product-special-price-color:	#f13340;
+$product-old-price-color:			#7e7f80;
+$product-old-font-size:       $font-size-base - 1;
+
+$product-discount-color:            #488C40;
+$product-online-only-color:         $red;
+$product-lable-new-bg:              #11BCBA;
+$product-lable-sale-bg:             #F0607B;
+
+$product-buttons-color:             $black74;
+$product-buttons-hover-color:       $theme-color-secondary;
+
+//---------- Buttons
+$button-text-color:					  $light-text-color;
+
+		//------ Buttons +/- ---
+		$button-pm-color:			    #c0c0c0;
+		$button-pm-hover-color:		$base-text-color;
+
+		//------ Button Small --
+		$button-small-bg:			    #6f6f6f;
+		$button-small-hover-bg:		#575757;
+
+		//-------Button exclusive-medium
+		$button-em-color:			    $base-text-color;
+
+//---------- Product Listing
+$base-listing-border-color:		$base-border-color;
+$base-listing-grid-padding:		$base-box-padding;
+
+		//-------------- Grid/List vars
+		$GL-text-color:						#7E7F80;
+		$GL-title-color:					$base-text-color;
+		$GL-icon-color:						#7E7F80;
+		$GL-icon-color-hover:						$theme-color-secondary;
+
+		//-------------- Pagination vars
+		$pagination-prevnext-color:			#777676;
+		$pagination-bgcolor:	          $base-box-bg;
+		$pagination-hover-bg:						#f6f6f6;
+
+//---------- Product Info
+$top-line-color:									#C4C4C4;
+$product-image-border:						#dbdbdb;
+$scroll-button-color:							#3E4141;
+$list-info-bg:										#f6f6f6;
+$scroll-button-hover-color:				$base-text-color;
+$tr-even-bg:										  #fdfdfd;
+
+//---------- Footer
+$footer-background:                 $theme-color-default;
+$footer-border-color:		    	      $theme-color-primary;
+$footer-title-color:                $theme-color-default;
+$footer-text-color:                 $gray-darker;
+
+
+//sub heading (h2,h3) define
+@mixin sub-heading {
+	color: $base-heading-color;
+	font-family: $font-custom;
+	font-size: 16px;
+	padding: 12px 10px;
+	margin: 0 0 20px;
+	position: relative;
+	border-bottom: none;
+	background: #F2F2F2;
+}
+
+//SKIN
+
+$skins: default null, green $green, christmas $red-dark, pink $pink, orange $orange;
+
+@mixin skin-color ($value) {
+  @if ($value == $theme-color-secondary) or ($value == $link-hover-color) or ($value == $product-buttons-hover-color) or ($value == $GL-icon-color-hover) or ($value == $product-name-hover-color){
+    @each $skin in $skins {
+      @if nth($skin, 2) == null{
+          color: $value;
+      }@else{
+        .#{nth($skin, 1)} & {
+          color: nth($skin, 2);
+        }
+      }
+    }
+  }@else {
+    color: $value;
+  }
+}
+
+@mixin skin-background-color ($value) {
+  @if ($value == $theme-color-secondary) or ($value == $btn-theme-primary-hover) {
+     @each $skin in $skins {
+      @if nth($skin, 2) == null{
+          background-color: $value;
+      }@else{
+        .#{nth($skin, 1)} & {
+          background-color: nth($skin, 2);
+        }
+      }
+    }
+  }@else {
+     background-color: $value;
+  }
+}
+
+// BORDER
+
+@mixin skin-border-color ($value, $type) {
+  $boder-color-val : border-color;
+  @if $type != all{
+    $boder-color-val : border-#{$type}-color;
+  }
+  @if ($value == $theme-color-secondary) or ($value == $base-hover-border-color) {
+    @each $skin in $skins {
+      @if nth($skin, 2) == null{
+           #{$boder-color-val}: $value;
+      }@else{
+        .#{nth($skin, 1)} & {
+          #{$boder-color-val}: nth($skin, 2);
+        }
+      }
+    }
+  } @else {
+    #{$boder-color-val}: $value;
+  }
+}

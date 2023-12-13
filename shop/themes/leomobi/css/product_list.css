@@ -1,0 +1,72 @@
+/* RIGHT TO LEFT */
+/*******************************************************
+Product list Styles
+********************************************************/
+/*******************************************************
+Product list(List) Styles 
+********************************************************/
+.product_list.list > .ajax_block_product .product-image-container .content_price {
+  display: none !important;
+}
+.product_list.list > .ajax_block_product .product-flags {
+  color: #2e3039;
+  margin: -5px 0 10px 0;
+}
+.product_list.list > .ajax_block_product .product-flags .discount {
+  color: #f13340;
+}
+.product_list.list > .ajax_block_product h5 {
+  padding-bottom: 8px;
+}
+.product_list.list > .ajax_block_product .product-desc {
+  margin-bottom: 15px;
+}
+.product_list.list > .ajax_block_product .center-block .comments_note {
+  margin-bottom: 12px;
+}
+.product_list.list > .ajax_block_product .right-block .right-block-content {
+  margin: 0;
+  padding: 10px 0 0 15px;
+}
+.product_list.list > .ajax_block_product .right-block .right-block-content .content_price {
+  padding-bottom: 10px;
+}
+.product_list.list > .ajax_block_product .right-block .right-block-content .content_price span {
+  display: inline-block;
+}
+.product_list.list > .ajax_block_product .right-block .right-block-content .content_price span.product-price.old-price {
+  margin-right: 8px;
+  font-size: 14px;
+}
+.product_list.list > .ajax_block_product .right-block .right-block-content .content_price span.product-price {
+  font-size: 20px;
+}
+.product_list.list > .ajax_block_product .right-block .right-block-content .button-container {
+  overflow: hidden;
+  margin: 10px 0;
+}
+.product_list.list > .ajax_block_product .right-block .right-block-content .button-container .btn {
+  margin-bottom: 10px;
+}
+.product_list.list > .ajax_block_product .right-block .right-block-content .functional-buttons a {
+  font-size: 13px;
+  cursor: pointer;
+}
+.product_list.list > .ajax_block_product .right-block .right-block-content .functional-buttons .wishlist {
+  border: none;
+}
+.product_list.list > .ajax_block_product .right-block .right-block-content .functional-buttons .compare {
+  padding-top: 10px;
+}
+.product_list.list > .ajax_block_product .right-block .right-block-content .functional-buttons .compare a:before {
+  margin-right: 10px;
+}
+
+/*******************************************************
+Product list(Index page) Styles 
+********************************************************/
+/***** IE code *****/
+.ie8 .quick-view {
+  background: #fff;
+  border: 1px solid #dedede;
+}

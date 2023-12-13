@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_07bb9c22123eb7b90fcb426f1cb9720a'] = 'Leo Gérer Widget';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_adb5849189804de6730bc9a56d729ef8'] = 'Leo Gérer support Widget Leo FrameWork 3.0 Verion.';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configuration de mise à jour';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_7f82c65d548588c8d5412463c182e450'] = 'La configuration n\'a pas pu être mis à jour.';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_692b3edc66434e719875aa2ecf8fbeaa'] = 'Gérer contrôle Widget page';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_204c3f1c7fbd80b0725587c336ad0aa0'] = 'Vous pouvez créer une nouvelle colonne de Avail Widget. S\'il vous plaît envisager lors de la création colonne dans le groupe non-groupe ou';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_c9cc8cce247e49bae79f15173ce97354'] = 'Sauver';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_0d97a3148a27058637a058e3158e2511'] = 'closeoropen';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_1f135dfa271a05c8d80eef87e73693b6'] = 'Fermez toutes les formes';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_870ca3af727ae16de606b6dc65f78ad2'] = 'openorclose';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_abde7ca0c2cf096ae5c68f912d7873de'] = 'Développer toutes les formes';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_aa957ef456f55cc31d7798b03806c84d'] = 'Gérer Widget';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_700e2c3b7b442c597c781eac801408b6'] = '___________ CUSTOM ___________';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_6957667301f05bce7e2c0b5cd8567df5'] = '____________ CORE ____________';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_b915c3f2926eb2dacadf11e7c5b904d7'] = 'Caché dans les grands appareils';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_200120bcca3122c156ec816080fe07d9'] = 'Caché dans les dispositifs moyennes';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_6255dcec0f04135fa161d03e6bb46ea2'] = 'Caché dans les petits appareils';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_87147971120558dba2382337684846fe'] = 'Caché dans les petits appareils supplémentaires';
+$_MODULE['<{leomanagewidgets}leomobi>leomanagewidgets_6840b02c2234cbeba4daa985c97d6f0f'] = 'Caché dans Smart Phone';
+$_MODULE['<{leomanagewidgets}leomobi>tab_f15c1cae7882448b3fb0404682e17e61'] = 'Teneur';
+$_MODULE['<{leomanagewidgets}leomobi>tab_e6a8f76165a3effbf2efe9f9d68063fa'] = 'Onglet Contenu';
+$_MODULE['<{leomanagewidgets}leomobi>widget_manucarousel_3426bf3cca12b1f6550fd8bd36171e2f'] = 'voir les produits';
+$_MODULE['<{leomanagewidgets}leomobi>widget_manufacture_3426bf3cca12b1f6550fd8bd36171e2f'] = 'voir les produits';
+$_MODULE['<{leomanagewidgets}leomobi>widget_newsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'Bulletin';
+$_MODULE['<{leomanagewidgets}leomobi>widget_newsletter_893db342db35878a6d5388e6409b32b2'] = 'Newsletter: adresse e-mail valide';
+$_MODULE['<{leomanagewidgets}leomobi>widget_newsletter_416f61a2ce16586f8289d41117a2554e'] = 'votre e-mail';
+$_MODULE['<{leomanagewidgets}leomobi>widget_newsletter_1fb103afe92d693ae23d0463b185a9a7'] = 'Allez!';
+$_MODULE['<{leomanagewidgets}leomobi>widget_product_03c2e7e41ffc181a4e84080b4710e81e'] = 'Nouveau';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_c91e4ee170226d66e90f99ba917e4c20'] = 'Vue rapide';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_03c2e7e41ffc181a4e84080b4710e81e'] = 'Nouveau';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_f2cd171bd42220283b7a595c3ff2aaaf'] = 'Vente';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_2d0f6b8300be19cf35e89e66f0677f95'] = 'Ajouter au panier';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_4351cfebe4b61d8aa5efa1d020710005'] = 'Voir';
+$_MODULE['<{leomanagewidgets}leomobi>widget_products_d3da97e2d9aee5c8fbe03156ad051c99'] = 'Plus';

@@ -1,0 +1,223 @@
+/* *****************************************************************
+	Buttons
+****************************************************************** */
+input.button_mini, input.button_small, input.button, input.button_large,
+input.button_mini_disabled, input.button_small_disabled, input.button_disabled,
+input.button_large_disabled, input.exclusive_mini, input.exclusive_small,
+input.exclusive, input.exclusive_large, input.exclusive_mini_disabled,
+input.exclusive_small_disabled, input.exclusive_disabled, input.exclusive_large_disabled,
+a.button_mini, a.button_small, a.button, a.button_large, a.exclusive_mini, a.exclusive_small,
+a.exclusive, a.exclusive_large, span.button_mini, span.button_small, span.button,
+span.button_large, span.exclusive_mini, span.exclusive_small, span.exclusive,
+span.exclusive_large, span.exclusive_large_disabled {
+  	background: $btn-theme-primary;
+}
+.btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus,
+.btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled],
+.btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active,
+.btn-default.active[disabled], fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover,
+fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
+	background: $gray-light;
+	border:0;
+}
+*:first-child+html input.button_mini, *:first-child+html input.button_small,
+*:first-child+html input.button, *:first-child+html input.button_large,
+*:first-child+html input.button_mini_disabled, *:first-child+html input.button_small_disabled,
+*:first-child+html input.button_disabled, *:first-child+html input.button_large_disabled,
+*:first-child+html input.exclusive_mini, *:first-child+html input.exclusive_small,
+*:first-child+html input.exclusive, *:first-child+html input.exclusive_large,
+*:first-child+html input.exclusive_mini_disabled, *:first-child+html input.exclusive_small_disabled,
+*:first-child+html input.exclusive_disabled, *:first-child+html input.exclusive_large_disabled {
+  	border: none;
+}
+
+//hover button
+input.button_mini:hover, input.button_small:hover, input.button:hover,
+input.button_large:hover, input.exclusive_mini:hover, input.exclusive_small:hover,
+input.exclusive:hover, input.exclusive_large:hover, a.button_mini:hover, a.button_small:hover,
+a.button:hover, a.button_large:hover, a.exclusive_mini:hover, a.exclusive_small:hover,
+a.exclusive:hover, a.exclusive_large:hover {
+  	@include skin-background-color($btn-theme-primary-hover);
+  	color: $white;
+}
+
+//active button
+input.button_mini:active, input.button_small:active, input.button:active,
+input.button_large:active, input.exclusive_mini:active, input.exclusive_small:active,
+input.exclusive:active, input.exclusive_large:active, a.button_mini:active,
+a.button_small:active, a.button:active, a.button_large:active,
+a.exclusive_mini:active, a.exclusive_small:active,
+a.exclusive:active, a.exclusive_large:active {
+  	@include skin-background-color($btn-theme-primary-hover);
+  	color: $white;
+}
+
+input.button_disabled,
+input.exclusive_disabled,
+span.exclusive {
+  	color: #999999;
+  	background: url(../img/bg_bt_2.gif) repeat-x 0 0 #cccccc;
+  	cursor: default;
+}
+
+.btn.disabled,
+.btn[disabled]:hover {
+  	opacity: 0.3;
+}
+.btn-link {
+	&:hover,
+  	&:focus {
+    @include skin-color($link-hover-color);
+  }
+}
+.button{
+	@include border-radius(2px);
+	background: $btn-theme-primary;
+	font-size: $font-size-base;
+	color: $button-text-color;
+	padding: 0;
+	outline: none;
+	span {
+	    display: block;
+	    padding: 5px 10px;
+	    i {
+	      	vertical-align: 0px;
+	      	@include rtl-margin-right(5px);
+	      	&.right {
+	        	margin-right: 0;
+	        	@include rtl-margin-left(5px);
+	        	font-size: $font-size-base - 1;
+	      	}
+	      	&.left {}
+	    }
+	}
+	&:hover,
+  	&:focus {
+	    @include skin-background-color($btn-theme-primary-hover);
+	    color: $button-text-color;
+	}
+	&:focus{
+		outline: none;
+	}
+	&.button-small {
+	}
+	&.button-medium {}
+	&.ajax_add_to_cart_button {
+		line-height: auto!important;
+		span{
+			text-transform: uppercase;
+			font-size: 11px;
+		}
+		&.disabled{
+			background: $btn-theme-primary;
+			@include opacity(0.5);
+		}
+	}
+	&.lnk_view {
+	}
+}
+
+.link-button {
+  	font-weight:$theme-font-weight;
+  	i {
+	    margin-right: 5px;
+	    &.large {
+	      	font-size: 26px;
+	      	line-height: 26px;
+	      	vertical-align: -3px;
+	      	color: silver;
+	    }
+  	}
+}
+
+.btn.button-plus,
+.btn.button-minus {
+  	font-size: 14px;
+  	line-height: 14px;
+  	color: $button-pm-color;
+  	padding: 0;
+  	border: 1px solid;
+  	@include border-radius(0);
+  	span {
+    	display: block;
+	    border: 1px solid $light-border-color;
+	    vertical-align: middle;
+	    width: 25px;
+	    height: 25px;
+	    text-align: center;
+	    vertical-align: middle;
+	    padding: 4px 0 0 0;
+	    background: rgb(30, 87, 153);
+	    background: rgb(255, 255, 255);
+	    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 1) 100%);
+	    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(251, 251, 251, 1)));
+	    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 1) 100%);
+	    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 1) 100%);
+	    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 1) 100%);
+	    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 1) 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fbfbfb',GradientType=0);
+  	}
+  	&:hover {
+	    color: $base-text-color;
+	    span {
+	      	filter: none;
+	      	background: #f6f6f6;
+	    }
+  	}
+}
+
+/* *****************************************************************
+	form
+****************************************************************** */
+.form-control {
+  	padding: 3px 5px;
+  	height: 27px;
+  	@include box-shadow(none);
+  	&.grey {
+    	background: $base-box-bg;
+  	}
+}
+/* ******************************************************************
+   Form validate
+******************************************************************* */
+.form-group {
+  	&.form-error {
+	    input, textarea {
+	      	border: 1px solid #f13340;
+	      	color: #f13340;
+	      	background: url(../img/icon/form-error.png) 98% 5px no-repeat #fff1f2;
+	    }
+  	}
+  	&.form-ok {
+	    input, textarea {
+	      	border: 1px solid #46a74e;
+	      	color: #35b33f;
+	      	background: url(../img/icon/form-ok.png) 98% 5px no-repeat #ddf9e1;
+	    }
+  	}
+  	&.form-error, &.form-ok {
+	    .form-control {
+	      	@include rtl-padding-right(30px);
+	    }
+  	}
+}
+/* ******************************************************************
+   uniform
+******************************************************************* */
+.radio-inline, .checkbox {
+  	padding-left: 0;
+  	.checker {
+    	@include rtl-float-left ();
+    	span {
+      		top: 0px;
+    	}
+  	}
+  	div.radio {
+	    display: inline-block;
+	    span {
+	      	@include rtl-float-left ();
+	      	top: 0px;
+	    }
+  	}
+}
+.btn { border: 0; }

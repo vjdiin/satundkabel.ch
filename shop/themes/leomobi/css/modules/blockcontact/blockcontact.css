@@ -1,0 +1,58 @@
+/* RIGHT TO LEFT */
+.shop-phone {
+  float: left;
+}
+.rtl .shop-phone {
+  float: right;
+}
+@media (max-width: 767px) {
+  .shop-phone {
+    display: none;
+  }
+}
+.shop-phone i {
+  color: white;
+}
+
+#contact-link {
+  float: left;
+  margin-right: 10px;
+}
+.rtl #contact-link {
+  float: right;
+}
+.rtl #contact-link {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+@media (max-width: 479px) {
+  #contact-link {
+    width: 25%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  #contact_block {
+    margin-bottom: 20px;
+  }
+}
+#contact_block .label {
+  display: none;
+}
+#contact_block .block_content {
+  color: #888888;
+}
+#contact_block p {
+  margin-bottom: 4px;
+}
+#contact_block p.tel {
+  font: 400 17px/21px Arial, Helvetica, sans-serif;
+  color: #2e3039;
+  margin-bottom: 6px;
+}
+#contact_block p.tel i {
+  font-size: 25px;
+  vertical-align: -2px;
+  padding-right: 10px;
+}
